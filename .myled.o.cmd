@@ -748,6 +748,72 @@ deps_/home/ubuntu/myled0/myled.o := \
   include/linux/projid.h \
   include/uapi/linux/quota.h \
   include/linux/nfs_fs_i.h \
+  include/linux/cdev.h \
+  include/linux/device.h \
+    $(wildcard include/config/acpi.h) \
+    $(wildcard include/config/debug/devres.h) \
+    $(wildcard include/config/generic/msi/irq/domain.h) \
+    $(wildcard include/config/pinctrl.h) \
+    $(wildcard include/config/generic/msi/irq.h) \
+    $(wildcard include/config/dma/declare/coherent.h) \
+    $(wildcard include/config/dma/cma.h) \
+    $(wildcard include/config/arch/has/sync/dma/for/device.h) \
+    $(wildcard include/config/arch/has/sync/dma/for/cpu.h) \
+    $(wildcard include/config/arch/has/sync/dma/for/cpu/all.h) \
+    $(wildcard include/config/of.h) \
+    $(wildcard include/config/devtmpfs.h) \
+    $(wildcard include/config/sysfs/deprecated.h) \
+  include/linux/ioport.h \
+    $(wildcard include/config/io/strict/devmem.h) \
+  include/linux/klist.h \
+  include/linux/pm.h \
+    $(wildcard include/config/vt/console/sleep.h) \
+    $(wildcard include/config/pm.h) \
+    $(wildcard include/config/pm/clk.h) \
+    $(wildcard include/config/pm/generic/domains.h) \
+  include/linux/ratelimit.h \
+  include/linux/overflow.h \
+  arch/arm64/include/asm/device.h \
+    $(wildcard include/config/iommu/api.h) \
+  include/linux/pm_wakeup.h \
+  include/linux/uaccess.h \
+  arch/arm64/include/asm/uaccess.h \
+    $(wildcard include/config/arm64/pan.h) \
+  arch/arm64/include/asm/kernel-pgtable.h \
+  arch/arm64/include/asm/pgtable.h \
+  arch/arm64/include/asm/proc-fns.h \
+  arch/arm64/include/asm/pgtable-prot.h \
+  arch/arm64/include/asm/tlbflush.h \
+    $(wildcard include/config/arm64/workaround/repeat/tlbi.h) \
+  arch/arm64/include/asm/fixmap.h \
+    $(wildcard include/config/acpi/apei/ghes.h) \
+    $(wildcard include/config/arm/sde/interface.h) \
+  arch/arm64/include/asm/boot.h \
+  include/asm-generic/fixmap.h \
+  include/asm-generic/pgtable.h \
+    $(wildcard include/config/have/arch/transparent/hugepage/pud.h) \
+    $(wildcard include/config/have/arch/soft/dirty.h) \
+    $(wildcard include/config/arch/enable/thp/migration.h) \
+    $(wildcard include/config/have/arch/huge/vmap.h) \
+    $(wildcard include/config/x86/espfix64.h) \
+  arch/arm64/include/asm/extable.h \
+  include/linux/io.h \
+    $(wildcard include/config/has/ioport/map.h) \
+    $(wildcard include/config/pci.h) \
+  arch/arm64/include/asm/io.h \
+  arch/arm64/include/generated/asm/early_ioremap.h \
+  include/asm-generic/early_ioremap.h \
+    $(wildcard include/config/generic/early/ioremap.h) \
+  include/asm-generic/io.h \
+    $(wildcard include/config/generic/iomap.h) \
+    $(wildcard include/config/virt/to/bus.h) \
+  include/asm-generic/pci_iomap.h \
+    $(wildcard include/config/no/generic/pci/ioport/map.h) \
+    $(wildcard include/config/generic/pci/iomap.h) \
+  include/linux/logic_pio.h \
+    $(wildcard include/config/indirect/pio.h) \
+  include/linux/fwnode.h \
+  include/linux/vmalloc.h \
 
 /home/ubuntu/myled0/myled.o: $(deps_/home/ubuntu/myled0/myled.o)
 
